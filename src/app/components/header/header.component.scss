@@ -1,0 +1,27 @@
+.header {
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	padding: 0px 30px;
+	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+	ul {
+		list-style-type: none;
+		li {
+			display: inline;
+			a {
+				color: #888;
+				font-size: 0.9em;
+				text-transform: uppercase;
+				&:hover {
+					color: #444;
+				}
+				&.router-link-active {
+					color: #222;
+				}
+			}
+			& + li {
+				padding-left: 40px;
+			}
+		}
+	}
+}

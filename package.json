@@ -1,0 +1,46 @@
+{
+  "name": "dgm-angular2-starter",
+  "version": "1.0.0",
+  "description": "Starter kit for Angular 2 project, using TypeScipt, Webpack, Sass, Jade. Supported by DGM Team.",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp dev",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ducle83@github.com/ducle83/dgm-angular2-starter.git"
+  },
+  "author": "DGM Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ducle83/dgm-angular2-starter/issues"
+  },
+  "homepage": "https://github.com/ducle83/dgm-angular2-starter#readme",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.9",
+    "browser-sync": "^2.11.1",
+    "browser-sync-webpack-plugin": "^1.0.1",
+    "del": "^2.2.0",
+    "es6-promise": "^3.1.2",
+    "es6-shim": "^0.33.0",
+    "gulp": "^3.9.1",
+    "gulp-env": "^0.4.0",
+    "gulp-util": "^3.0.7",
+    "jade": "^1.11.0",
+    "jade-html-loader": "0.0.3",
+    "node-sass": "^3.4.2",
+    "raw-loader": "^0.5.1",
+    "reflect-metadata": "0.1.2",
+    "run-sequence": "^1.1.5",
+    "rxjs": "^5.0.0-beta.2",
+    "sass-loader": "^3.2.0",
+    "ts-loader": "^0.8.1",
+    "tslint": "^3.6.0",
+    "tslint-loader": "^2.1.3",
+    "typings": "^0.7.9",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1",
+    "zone.js": "^0.5.15"
+  }
+}

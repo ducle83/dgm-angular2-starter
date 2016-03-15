@@ -3,6 +3,6 @@ Starter kit for Angular 2 project, using TypeScipt, Webpack, Sass, Jade. Support
 
 To run this starter, please run the followings:
 
-npm install
-typings install
-npm start
+* npm install
+* typings install
+* npm start
